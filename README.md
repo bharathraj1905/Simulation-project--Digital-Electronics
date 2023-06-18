@@ -16,6 +16,7 @@ The circuit that generates the parity bit is called parity generator. So with th
 
 
 # PROGRAM
+```
 module parity (a, y); 
 input [6:0]a; 
 output y; 
@@ -27,5 +28,6 @@ xor(w4, w3,a[2]);
 xor(w5,w4,a[1]);
 xor(y,w5,a[0]);
 endmodule
+```
 # REFERENCE
 https://youtu.be/c8qAti1zBVQ
